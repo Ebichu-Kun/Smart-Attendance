@@ -1,10 +1,10 @@
-package com.strawhat.smartattendance;
+package com.strawhat.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SmartattendanceApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
