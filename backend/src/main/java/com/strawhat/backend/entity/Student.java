@@ -18,4 +18,8 @@ public class Student {
     private User user;
 
     private String faceReference;
+
+    @ManyToOne
+    @JoinColumn(name = "section_id", nullable = false)
+    private Section section;
 }
